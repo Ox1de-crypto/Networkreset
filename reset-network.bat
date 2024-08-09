@@ -24,11 +24,13 @@ rem Flush DNS
 echo Flushing DNS...
 ipconfig /flushdns
 echo Done.
+echo.
 
 rem Register DNS
 echo Registering DNS...
 ipconfig /registerdns
 echo Done.
+
 echo.
 rem Release IP
 echo Releasing IP...
@@ -40,11 +42,13 @@ rem Renew IP
 echo Renewing IP...
 ipconfig /renew
 echo Done.
+
 echo.
 rem Reset Winsock
 echo Resetting Winsock...
 netsh winsock reset
 echo Done.
+echo.
 
 endlocal
 pause
