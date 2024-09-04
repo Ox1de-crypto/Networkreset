@@ -1,3 +1,5 @@
 Windows Network Reset automation script
 
-simply Run as Admin for complete network reset
+Instruction
+------------
+>Simply Run as Admin for complete network reset
